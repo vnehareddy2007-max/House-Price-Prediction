@@ -1,18 +1,40 @@
-# first_project
-my attempt at trying to understand ml better through practical application
-The goal of this project is to build a regression model that predicts a district's median housing price based on metrics like location, population, average income, and total rooms.
+#  California House Price Prediction
 
+## Overview
 
-Data Cleaning & Preprocessing: Handles missing values, feature scaling (StandardScaler), and categorical encoding (One-Hot Encoding).
+This project predicts California house prices using machine learning regression models. It covers the complete ML workflow from data preprocessing and exploratory data analysis to model training and evaluation.
 
-Feature Engineering: Creates meaningful new features (e.g., rooms_per_household, population_per_household) to boost model accuracy.
+## Dataset
 
-Model Exploration: Trains and compares multiple algorithms, including Linear Regression, Decision Trees, and Random Forests.
+- California Housing Dataset
 
-Hyperparameter Tuning: Utilizes GridSearchCV and RandomizedSearchCV to optimize the best-performing models.
+## Workflow
 
-Pipelines: Implements Scikit-Learn Pipeline architectures for clean, reproducible, and production-ready code.
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Model training
+- Hyperparameter tuning
+- Model evaluation
 
-Language: Python
+## Models Used
 
-Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- Linear Regression
+- Random Forest Regressor
+- Random Forest + GridSearchCV
+
+## Evaluation Metrics
+
+- R² Score
+- RMSE
+- MAE
+- MSE
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
